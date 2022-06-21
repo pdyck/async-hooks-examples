@@ -10,7 +10,7 @@
       "examples/*"
     ]
   },
-  "devDependency": {
+  "devDependencies": {
     "typescript": "^4.7.4"
   }
 }
