@@ -1,9 +1,16 @@
 {
   "name": "async-hooks-examples",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/pdyck/async-hooks-examples",
   "author": "Philipp Dyck <pdyck@users.noreply.github.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "examples/*"
+    ]
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
 }
